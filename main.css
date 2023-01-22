@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    background-color:#0D192C;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rect{
+    background-color: #15263F;
+    width: 350px;
+    height: 596px;
+    border-radius: 15px;
+}
+
+.image{
+    width: 302px;
+    height: 302px;
+    margin: 24px;
+    border-radius: 8px;
+}
+
+.rect h1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: white;
+    width: 302px;
+    height: 28px;
+    margin: 0;
+    margin-left: 24px;
+}
+
+.rect p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8BACD9;
+    width: 302px;
+    height: 52px;
+    margin: 0;
+    margin-top: 16px;
+    margin-left: 24px;
+}
+.eth{
+    display: flex;
+    height: 45px;
+}
+.eth .eth-logo{
+    width: 11px;
+    height: 18px;
+    margin: 0;
+    margin-left: 24px;
+    margin-top: 25px;
+}
+
+.eth .eth-quantity{
+    position: relative;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FFF8;
+    margin: 0;
+    margin-top: 24px;
+    margin-left: 6.48px;
+}
+
+.eth .clock{
+    position:relative;
+    right:8px;
+    top: 26px;
+    width: 16px;
+    height: 16px;
+
+}
+
+.eth .timeleft{
+    margin: 0;
+    margin-right: 26px;
+    position:relative;
+    top: 23px;
+    width: 113px;
+    height: 20px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+
+}
+
+.rectangle{
+    margin: 24px;
+    width: 302px;
+    height: 1px;
+    background: #2E405A;
+}
+.author{
+    display: flex;
+}
+.author img{
+    width: 33px;
+    height: 33px;
+    margin-left: 24px;
+}
+
+.author p{
+    width: 200px;
+    height: 20px;
+    margin: 4px;
+    margin-left: 20px;
+}
+
+.author .white{
+    color: #ffffff;
+    position: relative;
+    right: 50px;
+}
